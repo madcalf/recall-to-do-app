@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>  
+  <meta charset="utf8">
+  <title><%= @title + ' | Recall' %></title>
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">Recall</a></h1>
+      <h2>'cause you're too busy to remember</h2>
+    </hgroup>
+  </header>
+  <div id="main">
+    <!-- content for specific routes gets inserted here -->
+    <%= yield %>
+  </div>
+  
+  <footer>
+    <p><small>An app for <a href="http://net.tutsplus.com">Nettuts+</a></small></p>
+  </footer>
+</body>
+  
+</html>
